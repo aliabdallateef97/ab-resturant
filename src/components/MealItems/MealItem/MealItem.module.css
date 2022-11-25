@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #BFCDE0;
+    width: 280px;
+    max-width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.card .image{
+max-width: 100%;
+}
+.card .image img{
+    max-width: 100%;
+}
+
+.card .title{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card p{
+    text-align: center;
+    color: #3B3355;
+    font-weight: bold;
+    font-size: 14px;
+}

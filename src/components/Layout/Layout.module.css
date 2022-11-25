@@ -1,0 +1,12 @@
+.layout{
+    min-height: 100%;
+}
+.main{
+    margin: 0 4rem;
+}
+
+@media(max-width:767px){
+    .main{
+        margin: 0 1rem;
+    }
+}

@@ -1,0 +1,47 @@
+.header{
+    background-color: hsl(215, 35%, 81%);
+    
+}
+.header .navbar{
+margin: 0 3rem;
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar svg{
+    font-size: 1.4rem;
+}
+@media(min-width:992px){
+    .navbar svg{
+        display: none;
+    }
+    .navbar .cart svg{
+        display: block;
+    }
+    .navbar .logo svg{
+        display: block;
+    }
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+@media(max-width:991px){
+    .navbar{
+        padding: 10px 0 6px;
+    }
+    .navbar svg{
+        cursor: pointer;
+    }
+    .navbar .logo{
+        display: none;
+    }
+    .navbar .navItems{
+        display: none;
+    }
+    
+}

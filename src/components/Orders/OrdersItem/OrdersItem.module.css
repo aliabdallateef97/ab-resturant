@@ -1,0 +1,17 @@
+.item{
+    border-radius: 1rem;
+    border: 2px solid #5D5D81;
+    background-color: #3B3355;
+    color: #FEFCFD;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+}
+
+.item p{
+    margin-bottom: 0.5rem;
+}
+.item .title{
+    font-size: 20px;
+    font-weight: 500;
+}
+

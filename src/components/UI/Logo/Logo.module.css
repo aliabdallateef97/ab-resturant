@@ -1,0 +1,24 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.3rem;
+}
+
+.logo p{
+font-family: 'Lobster two' ,cursive;
+font-weight: 400;
+}
+
+@media(max-width:991px){
+    .logo{
+        color: #FEFCFD;
+        padding: 1rem 1.5rem;
+    }
+    .logo p{
+    font-size: 1.5rem;
+    }
+    .logo svg{
+        font-size: 2rem;
+    }
+}

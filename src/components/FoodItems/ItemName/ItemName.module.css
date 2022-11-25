@@ -1,0 +1,39 @@
+.boxTitle{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    margin:2rem 0rem;
+    flex-wrap: wrap;
+
+}
+.boxTitle .title{
+    display: flex;
+}
+.boxTitle .title a{
+    padding: 1rem;
+    border: 2px solid #5D5D81;
+    background-color: #3B3355;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FEFCFD;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.boxTitle .title a:hover,
+.boxTitle .title a:active,
+.boxTitle .title a.active{
+    border: 2px solid #3B3355;
+    background-color: #5D5D81;
+}
+
+@media(max-width:767px){
+.boxTitle{
+    gap:0.4rem
+}
+.boxTitle .title a{
+    padding: 0.5rem;
+    font-size: 14px;
+}
+
+}

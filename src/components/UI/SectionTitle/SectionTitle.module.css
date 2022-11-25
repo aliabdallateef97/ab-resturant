@@ -1,0 +1,20 @@
+.title{
+    text-align: center;
+    margin: 2rem auto;
+}
+.title h2{
+    margin: auto;
+    padding: 1rem 1.3rem;
+    font-size: 2rem;
+    position: relative;
+}
+.title h2::after{
+    content: '';
+    background-color: #5D5D81;
+    bottom: 0;
+    left: 50%;
+    width: 7rem;
+    height: 3px;
+    position: absolute;
+    transform: translateX(-50%);
+}

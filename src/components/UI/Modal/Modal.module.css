@@ -1,0 +1,38 @@
+.overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.705);
+    z-index: 20;
+}
+.Modal{
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: white;
+    position: fixed;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+    animation: card-appear 1s ease-out ;
+}
+@media(max-width:767px){
+  .Modal{
+    width: 80%;
+  }
+}
+
+@keyframes card-appear{
+    from {
+      opacity: 0;
+      transform: translate(-50%,-70%);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate(-50%,-50%);
+    }
+  }

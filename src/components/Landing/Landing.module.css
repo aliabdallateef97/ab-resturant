@@ -1,0 +1,41 @@
+.landing{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 50px);
+
+}
+.landing .image{
+    position: relative;
+}
+.landing .image img{
+    position: relative;
+animation: img-mov 4s linear infinite;
+
+}
+.landing .text p{
+color: #5D5D81;
+line-height: 1.8;
+}
+@keyframes img-mov {
+    0%,100%{
+        top: 0;
+    }
+    50%{
+        top: 40px;
+    }
+    
+}
+@media(max-width:991px){
+    .landing .image img{
+        width: 400px;
+        height: 400px;
+    }
+    .landing{
+        flex-direction: column;
+    }
+    .landing .text{
+        text-align: center;
+        
+    }
+}

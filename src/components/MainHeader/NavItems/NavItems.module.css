@@ -1,0 +1,48 @@
+
+
+.ul{
+    display: flex;
+    
+}
+.ul li{
+    list-style: none;
+    display: flex;
+}
+
+.ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lobster two' ,cursive;
+    padding: 0.7rem 2rem;
+}
+.ul li a:hover ,
+.ul li a:active ,
+.ul li a.active {
+    background-color: #5D5D81;
+    color: #FEFCFD;
+}
+
+@media(max-width:991px){
+    .ul{
+      display: flex;
+      flex-direction: column;
+      
+      width: 100%;
+      }
+      .ul li{
+          display: flex;
+      }
+      ul li a{
+        padding: 0.7rem 2rem;
+        width: 100%;
+        color: #FEFCFD;
+      }
+      .ul li a:hover,
+      .ul li a.active,
+      .ul li a:active{
+          background-color: #BFCDE0;
+          color: #3B3355;
+      }
+}
