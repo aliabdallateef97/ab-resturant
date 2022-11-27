@@ -31,11 +31,24 @@ line-height: 1.8;
         width: 400px;
         height: 400px;
     }
+    
+}
+@media(max-width:767px){
+    .landing .image img{
+        width: 270px;
+        height: 270px;
+    }
     .landing{
         flex-direction: column;
     }
     .landing .text{
         text-align: center;
         
+    }
+    .landing .text h1{
+        font-size: 20px;
+    }
+    .landing .text p{
+        font-size: 16px;
     }
 }
